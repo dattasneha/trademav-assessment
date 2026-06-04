@@ -1,20 +1,17 @@
-# Signal Viewer 📈
+# Signal Viewer 
 
-Signal Viewer is a modern, high-performance Android application built with **Jetpack Compose** that fetches, structures, and displays trading/market signals. It connects to a REST API to retrieve post data and processes it into trading intelligence (BUY/SELL signals) within an ultra-premium, dark-themed, glassmorphic interface.
+Signal Viewer is a Android application built with **Jetpack Compose** that fetches, structures, and displays trading/market signals. It connects to a REST API to retrieve post data and processes it into trading BUY/SELL signals.
 
 ---
-
-## 📱 Features
+## Features
 
 - **Real-time Signal Classification**: Dynamically interprets data items into actionable trade signals (**BUY** vs. **SELL**) based on message attributes.
 - **Dynamic Limit Configuration**: Interactively select the number of signals to load (10, 20, 50, or 100) using a sleek, styled dropdown.
-- **Sleek Glassmorphic Design**: Curated dark palette with glowing border gradients, custom transitions, and smooth list animations.
 - **Detailed Signal Breakdown**: Tap any signal row to access a dedicated details screen displaying full structural titles and body metadata.
 - **State-driven Architecture**: Fully reactive UI responding to loading, error, and success states dynamically.
-
 ---
 
-## 🛠️ Tech Stack & Libraries
+## Tech Stack & Libraries
 
 - **Language**: [Kotlin](https://kotlinlang.org/) (JVM Toolchain 11)
 - **UI Framework**: [Jetpack Compose](https://developer.android.com/compose) with Material 3
@@ -25,7 +22,7 @@ Signal Viewer is a modern, high-performance Android application built with **Jet
 
 ---
 
-## 🏛️ Architecture & Project Structure
+## Architecture & Project Structure
 
 The project follows clean architecture principles using the **MVVM (Model-View-ViewModel)** architectural pattern.
 
@@ -78,11 +75,11 @@ SignalViewer/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- **Android Studio** (Ladybug / Meerkat or newer recommended)
+- **Android Studio** (Panda2 recommended)
 - **Android SDK**: Compile & Target SDK 36 (Minimum SDK 24)
 - **JDK**: Java Development Kit 11+
 
@@ -106,4 +103,4 @@ SignalViewer/
 
 4. **Launch on Emulator/Device**:
    - Connect your Android physical device (with USB debugging enabled) or start a Virtual Device (AVD).
-   - Press **Run (Shift + F10)** in Android Studio.
+
