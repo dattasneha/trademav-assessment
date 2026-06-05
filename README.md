@@ -38,11 +38,11 @@ SignalViewer/
 │           └── java/com/snehadatta/
 │               └── signalviewer/
 |                   |__data/
-│                   ├── model/
-│                       └── Post.kt                 # Data classes (signals)
-│                   └── remote/
-│                       ├── ApiService.kt           # Retrofit network interface
-│                       └── MainRepository.kt       # Repository pattern for network requests
+│                       ├── model/
+│                            └── Post.kt                 # Data classes (signals)
+│                       └── remote/
+│                            ├── ApiService.kt           # Retrofit network interface
+│                            └── MainRepository.kt       # Repository pattern for network requests
 │               
 │                   ├── MainActivity.kt             # Application Entrypoint
 │                   ├── SignalViewerApp.kt          # Application Class (Koin Initialization)
